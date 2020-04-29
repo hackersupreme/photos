@@ -65,15 +65,6 @@ gatsby develop
 
 In Gatsby.js the `gatsby-node.js` file is where you can use the `createPages` API that creates pages programmatically from data.
 
-createPage accepts the following as arguments:
-- path
-	- relative url
-- component
-	- template file to use
-- context
-	- data to be sent to template file
-
-
 **gatsby-node.js**
 ```
 const path = require('path');
@@ -100,3 +91,79 @@ exports.createPages =  ({ actions }) => {
 }
 
 ```
+
+createPage accepts the following as arguments:
+- path
+	- relative url
+- component
+	- template file to use
+- context
+	- data to be sent to template file
+
+**/src/components/image.js
+
+```
+import React from "react"
+import { Link } from "gatsby"
+
+import Header from './header.js'
+import Footer from '../components/footer.js'
+import SEO from '../components/seo.js'
+
+const ImagePage = ({pageContext: image}) => {
+
+	let Image = require('../images/' + image.filepath);
+
+  	return(
+	    <React.Fragment>
+
+	    <SEO title={image.title} />
+
+	    <Header />
+	    <main>
+
+	    	<figure class="single">
+
+	    		<img src={Image} />
+	    	
+	    		<h2>{image.title}</h2>
+
+		    	<figcaption class="single">
+		    		<p><strong>ID</strong></p>
+				    <p class="align-right">{image.id}</p>
+				    <p><strong>Date</strong></p>
+				    <p class="align-right">{image.date}</p>
+				    <p><strong>Camera</strong></p>
+				    <p class="align-right">{image.camera}</p>
+				    <p><strong>Price</strong></p>
+				    <p class="align-right">{image.price}</p>
+			    </figcaption>
+
+		    </figure>
+
+	    </main>
+
+	    <Footer />
+	    </React.Fragment>
+	)
+}
+
+export default ImagePage
+```
+
+## Resources / Contact Info
+
+###### Email
+
+jeffgsch@gmail.com
+
+###### Website
+
+http://hackersupreme.com
+
+###### Resources
+
+- [react.js](https://reactjs.org/)
+- [gatsby.js](https://nodejs.org/en/)
+- [programmatically create pages in gatsby.js](https://www.gatsbyjs.org/tutorial/part-seven/)
+- [node.js](https://nodejs.org/en/)
