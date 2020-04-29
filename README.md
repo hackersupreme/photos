@@ -63,7 +63,16 @@ gatsby develop
 
 ## Documentation
 
-The `gatsby-node.js` file is where you can use the `createPages` API that creates pages from data.
+In Gatsby.js the `gatsby-node.js` file is where you can use the `createPages` API that creates pages programmatically from data.
+
+createPage accepts the following as arguments:
+- path
+	- relative url
+- component
+	- template file to use
+- context
+	- data to be sent to template file
+
 
 **gatsby-node.js**
 ```
