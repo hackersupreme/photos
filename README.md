@@ -65,10 +65,10 @@ gatsby develop
 
 The `gatsby-node.js` file is where you can use the `createPages` API that creates pages from data.
 
+**gatsby-node.js**
 ```
 const path = require('path');
 const data = require('./data.json');
-```
 
 exports.createPages =  ({ actions }) => {
 
