@@ -14,7 +14,7 @@ This is a simple photography portfolio built with Gatsby.js. It has a feed of im
 
 I wanted to create something as simple as possible since I only wanted a JSON file with an array of image objects to handle the data with the site. 
 
-data.json
+**data.json**
 ```
 {
 	"photos": [
