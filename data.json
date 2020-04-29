@@ -1,0 +1,100 @@
+{
+	"photos": [
+		{
+			"id":8,
+			"title":"snow bush",
+			"filepath":"snowbush.png",
+			"date":"April 15 2020",
+			"price":"69",
+			"camera": "iPhone 8"
+		},		
+		{
+			"id":1,
+			"title":"barbed",
+			"filepath":"barbed.png",
+			"date":"April 18 2020",
+			"price":"69",
+			"camera": "iPhone 8"
+		},
+		{
+			"id":11,
+			"title":"pink flowers 1",
+			"filepath":"pinkflowersbluesky.png",
+			"date":"April 24 2020",
+			"price":"69",
+			"camera": "Sony Alpha 330"
+		},
+		{
+			"id":3,
+			"title":"waves",
+			"filepath":"waves.png",
+			"date":"April 1 2020",
+			"price":"69",
+			"camera": "iPhone 8"
+		},
+		{
+			"id":2,
+			"title":"deer",
+			"filepath":"deer.png",
+			"date":"April 1 2020",
+			"price":"69",
+			"camera": "iPhone 8"
+		},
+		{
+			"id":5,
+			"title":"solar 4",
+			"filepath":"solar4.png",
+			"date":"April 21 2020",
+			"price":"69",
+			"camera": "iPhone 8"
+		},
+		{
+			"id":7,
+			"title":"blueberry bush",
+			"filepath":"blueberrybush.png",
+			"date":"April 15 2020",
+			"price":"69",
+			"camera": "iPhone 8"
+		},
+		{
+			"id":12,
+			"title":"pink flowers 2",
+			"filepath":"pinkflowerswhitesky.png",
+			"date":"April 26 2020",
+			"price":"69",
+			"camera": "Sony Alpha 330"
+		},
+		{
+			"id":6,
+			"title":"black door",
+			"filepath":"blackdoor.png",
+			"date":"April 13 2020",
+			"price":"69",
+			"camera": "iPhone 8"
+		},
+		{
+			"id":9,
+			"title":"beach",
+			"filepath":"beach.png",
+			"date":"April 21 2020",
+			"price":"69",
+			"camera": "iPhone 8"
+		},
+		{
+			"id":10,
+			"title":"cell tower",
+			"filepath":"celltower.png",
+			"date":"April 20 2020",
+			"price":"69",
+			"camera": "iPhone 8"
+		},
+		{
+			"id":13,
+			"title":"white flowers",
+			"filepath":"whiteflowers.png",
+			"date":"April 26 2020",
+			"price":"69",
+			"camera": "Sony Alpha 330"
+		}
+	]
+}
