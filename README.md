@@ -100,7 +100,7 @@ createPage accepts the following as arguments:
 - context
 	- data to be sent to template file
 
-**/src/components/image.js
+**/src/components/image.js**
 
 ```
 import React from "react"
